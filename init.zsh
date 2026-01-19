@@ -8,7 +8,6 @@
 ######################################################################
 p6df::modules::nmap::deps() {
   ModuleDeps=(
-    p6m7g8-dotfiles/p6common
     ohmyzsh/ohmyzsh:plugins/nmap
   )
 }
