@@ -21,7 +21,7 @@ p6df::modules::nmap::deps() {
 ######################################################################
 p6df::modules::nmap::external::brew() {
 
-  p6df::modules::homebrew::cli::brew::install nmap
+  p6df::core::homebrew::cli::brew::install nmap
 
   p6_return_void
 }
