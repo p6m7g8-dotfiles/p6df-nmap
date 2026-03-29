@@ -15,11 +15,11 @@ p6df::modules::nmap::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::nmap::external::brew()
+# Function: p6df::modules::nmap::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::nmap::external::brew() {
+p6df::modules::nmap::external::brews() {
 
   p6df::core::homebrew::cli::brew::install nmap
 
