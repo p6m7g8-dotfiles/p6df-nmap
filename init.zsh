@@ -25,3 +25,20 @@ p6df::modules::nmap::external::brews() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words nmap $NMAP_PRIVILEGED = p6df::modules::nmap::profile::mod()
+#
+#  Returns:
+#	words - nmap $NMAP_PRIVILEGED
+#
+#  Environment:	 NMAP_PRIVILEGED
+#>
+######################################################################
+p6df::modules::nmap::profile::mod() {
+
+  p6_return_words 'nmap' '$NMAP_PRIVILEGED'
+}
+
