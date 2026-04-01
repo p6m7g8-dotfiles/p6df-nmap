@@ -40,6 +40,6 @@ p6df::modules::nmap::external::brews() {
 p6df::modules::nmap::profile::mod() {
 
   # shellcheck disable=SC2016
-  p6_return_words 'nmap' "$"
+  p6_return_words 'nmap' "$NMAP_PRIVILEGED"
 }
 
