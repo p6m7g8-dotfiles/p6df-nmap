@@ -36,7 +36,8 @@ TODO: Add a short summary of this module.
 ##### p6df-nmap/init.zsh
 
 - `p6df::modules::nmap::deps()`
-- `p6df::modules::nmap::external::brew()`
+- `p6df::modules::nmap::external::brews()`
+- `words nmap = p6df::modules::nmap::profile::mod()`
 
 ## Hierarchy
 

@@ -29,10 +29,10 @@ p6df::modules::nmap::external::brews() {
 ######################################################################
 #<
 #
-# Function: words nmap $NMAP_PRIVILEGED = p6df::modules::nmap::profile::mod()
+# Function: words nmap = p6df::modules::nmap::profile::mod()
 #
 #  Returns:
-#	words - nmap $NMAP_PRIVILEGED
+#	words - nmap
 #
 #  Environment:	 NMAP_PRIVILEGED
 #>
